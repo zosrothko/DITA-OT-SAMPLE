@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <mapref href="Introduction/Introduction.ditamap"/>
+    <mapref href="Creating_a_Connection/Creating_a_Connection.ditamap"/>
+    <mapref href="Retrieving_Data/Retrieving_Data.ditamap"/>
+    <mapref href="A_Close-Up_of_a_Sample_File/A_Close-Up_of_a_Sample_File.ditamap"/>
+</map>

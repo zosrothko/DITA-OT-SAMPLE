@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <topicref navtitle="A Close-Up of a Sample File">
+        <topicref href="topics/Introduction.dita"/>
+        <topicref href="topics/Classes_Imported.dita"/>
+        <topicref href="topics/Code_Required.dita"/>
+    </topicref>
+</map>

@@ -1,0 +1,4 @@
+<?xml version="1.0" ?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic id="Introduction"><title>Introduction</title><body><dt>In this section</dt><dd><p>This section covers the principle tasks that you must follow to
+			establish a connection to the mainframe. This involves:</p><ul><li>creating a Java file</li><li>configuring your connection in Java, ORconfiguring it by reference</li><li>creating a logon object</li><li>creating a communication object</li></ul></dd><dt>For more information</dt><dd><p>This chapter is an introduction to programming with the 3287
+			connector. For more detail on configuration aspects described here,
+			refer to the JavaDoc files that are delivered with this product.</p><?pagebreak?></dd></body></topic>

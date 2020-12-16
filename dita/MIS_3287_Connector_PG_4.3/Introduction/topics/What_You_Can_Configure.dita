@@ -1,0 +1,6 @@
+<?xml version="1.0" ?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic id="What_You_Can_Configure"><title>What You Can Configure</title><body><dt>Introduction</dt><dd><p>You can determine every aspect of the behavior of the connector by
+			writing code in a Java file. However, some aspects can be set
+			separately by setting parameters in a configuration file. This option
+			tells you what can be set by configuration.</p></dd><dt>Where to configure</dt><dd><p><codeph>You can define the connection by setting parameters in the
+			 scortconnectors.properties</codeph>configuration file.</p></dd><dt>What you can set</dt><dd><p>For a complete list of the values you can set in this file see:</p><ul><li><i>the
+				 MIS Connector Framework Configuration Guide</i>, and</li><li></li></ul><?pagebreak?></dd></body></topic>

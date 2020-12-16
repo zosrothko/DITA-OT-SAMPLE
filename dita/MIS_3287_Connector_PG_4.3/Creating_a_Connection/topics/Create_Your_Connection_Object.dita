@@ -1,0 +1,10 @@
+<?xml version="1.0" ?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic id="Create_Your_Connection_Object"><title>Create Your Connection Object</title><body><dt>Introduction</dt><dd><p>To create your connection object you must:</p><ul><li>import the class that lets you create an object</li><li>create the object using the correct syntax</li></ul></dd><dt>To import a class for communication</dt><dd><p>To import the class that lets you create a communication object:</p><simpletable><strow><stentry ROWSPAN="1" COLSPAN="1"><SingleStepT></SingleStepT></stentry><stentry ROWSPAN="1" COLSPAN="1"><StepText><codeph>Type
+						 import
+							com.scort.connector.infrastructure.Communication</codeph>.</StepText><draft-comment>This class lets you import an object that can establish
+						communication with the host.</draft-comment></stentry></strow></simpletable></dd><dt>To create a connection object</dt><dd><p>Follow the procedure below to create a connection object.</p><simpletable><strow><stentry ROWSPAN="1" COLSPAN="1"><Step1></Step1></stentry><stentry ROWSPAN="1" COLSPAN="1"><StepText><codeph>Type
+						 Communication MyCommunicationObject =
+							connectionSpec.getCommunication()</codeph>.</StepText><draft-comment><codeph>You have created a connection object using the
+						 getCommunication()</codeph>method of the connection spec class.</draft-comment></stentry></strow><strow><stentry ROWSPAN="1" COLSPAN="1"><Steps></Steps></stentry><stentry ROWSPAN="1" COLSPAN="1"><StepText><codeph>Type
+						 MyConnectionobject.connect();</codeph></StepText><draft-comment><codeph>You have established a connection using the
+						 connect()</codeph>method of your connection object. In the example below, you enter
+						code that creates a connection object called communication3287.</draft-comment><AnchorPoint></AnchorPoint><image link="simple" href="images/MIS_3287_Connector_PG_4.3-17.jpg" show="embed" actuate="auto"></image></stentry></strow></simpletable><?pagebreak?></dd></body></topic>

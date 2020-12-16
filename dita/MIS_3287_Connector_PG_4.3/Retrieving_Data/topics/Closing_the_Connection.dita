@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic id="Closing_the_Connection"><title>Closing the Connection</title><body><dt>Introduction</dt><dd><p>This section tells you how to close the connection after use. It also
+			tells you how to close the connector context that is associated with
+			the connection, if any.</p></dd><dt>Why close a connection?</dt><dd><p>After use the connection remains unavailable to other users until you
+			close it.</p></dd><dt>About the physical connection</dt><dd><p>The physical connection remains open, and after the application of
+			the method is flagged open, so that another user can connect with it.</p></dd><dt>Why close associated connection contexts?</dt><dd><p>Any contexts related to your connection should be closed, as they may
+			also occupy other connections.</p></dd><dt>To close your connection</dt><dd><p>To close your connection:</p><simpletable><strow><stentry ROWSPAN="1" COLSPAN="1"><SingleStepT></SingleStepT></stentry><stentry ROWSPAN="1" COLSPAN="1"><StepText>Type:</StepText><ul><li><codeph>if( connection != null ) {connection.close();}</codeph></li></ul><draft-comment>This uses the .close method of the connection object to close the
+						connection if its value is not null.</draft-comment></stentry></strow></simpletable></dd><dt>To close your connection context</dt><dd><p>To close contexts associated with your connection:</p><simpletable><strow><stentry ROWSPAN="1" COLSPAN="1"><SingleStepT></SingleStepT></stentry><stentry ROWSPAN="1" COLSPAN="1"><StepText>Type:</StepText><StepText>if( CurrentConnectorContext.isCurrentSet() ) {
+						CurrentConnectorContext.getCurrent().close();</StepText><draft-comment>This closes any contexts that may be associated with your
+						connnection.</draft-comment></stentry></strow></simpletable><?pagebreak?></dd></body></topic>

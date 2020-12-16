@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <topicref navtitle="Retrieving Data">
+        <topicref href="topics/Introduction.dita"/>
+        <topicref href="topics/Importing_Classes_for_Interaction_with_the_Host.dita"/>
+        <topicref href="topics/Creating_an_Interaction_Object.dita"/>
+        <topicref href="topics/Defining_Interaction.dita"/>
+        <topicref href="topics/Create_an_Object_for_Data_Reception.dita"/>
+        <topicref href="topics/Execute_the_Interaction.dita"/>
+        <topicref href="topics/Closing_the_Connection.dita"/>
+        <topicref href="topics/Place_Your_Java_Class_in_Your_Web_Application.dita"/>
+    </topicref>
+</map>

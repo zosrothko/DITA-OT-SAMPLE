@@ -1,0 +1,8 @@
+<?xml version="1.0" ?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic id="Two_Ways_to_Define_Your_Connection"><title>Two Ways to Define Your Connection</title><body><dt>Introduction</dt><dd><p>There are two ways to define a connection:</p><ul><li>directly in your java file</li><li><codeph>in a connection factory in the
+				 scortconnectors.properties</codeph>file</li></ul><p>This section sets out advantages of each method.</p></dd><dt>Why configure in Java?</dt><dd><p>You can choose to set every aspect of your connection’s configuration
+			directly in the Java file. This option has the following advantages:</p><ul><li><codeph>you need not edit the
+				 scortconnectors.properties</codeph>file</li><li>configuration information is concentrated in a single file</li></ul></dd><dt>Why configure by reference?</dt><dd><p>The advantages of configuring the connection by reference are as
+			follows:</p><ul><li><codeph>several different configurations can be stored in a single reference
+				file:
+				 scortconnectors.properties</codeph></li><li>this structure is directly parallel to the J2EE architecture</li></ul></dd><dt>Two methods</dt><dd><p>The diagram below shows the two methods you can use to define your
+			connection.</p><AnchorPoint></AnchorPoint><image link="simple" href="images/MIS_3287_Connector_PG_4.3-4.jpg" show="embed" actuate="auto"></image><?pagebreak?></dd></body></topic>

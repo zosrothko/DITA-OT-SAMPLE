@@ -1,0 +1,10 @@
+<?xml version="1.0" ?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic id="Create_a_Logon_Information_Object"><title>Create a Logon Information Object</title><body><dt>Introduction</dt><dd><p>The CurrentConnectorContext class, imported in the previous section,
+			lets you create an object that will contain that is based on current
+			user logon information.</p></dd><dt>How this is done</dt><dd><p>Three elements let you construct an object for logon information:</p><ul><li>Printer3287LogonInfoItems class, for the creation of the object</li><li>CurrentConnectorContext class, for the insertion of current user
+				information</li><li>the setLuName method of the Printer3287LogonInfoItems class</li></ul></dd><dt>To create the logon object</dt><dd><p>Follow the procedure below to create a logon object.</p><simpletable><strow><stentry ROWSPAN="1" COLSPAN="1"><Step1></Step1></stentry><stentry ROWSPAN="1" COLSPAN="1"><StepText>Type Printer3287LogonInfoItems MyLogonInfoObject = new
+						Printer3287LogonInfoItems(CurrentConnectorContext.getCurrent().getLogonInfo(),
+						(Printer3287ConnnectionSpec) connectionFactory);</StepText><draft-comment>This creates a logon information object for a connection that is
+						defined by reference.</draft-comment></stentry></strow><strow><stentry ROWSPAN="1" COLSPAN="1"><Steps></Steps></stentry><stentry ROWSPAN="1" COLSPAN="1"><StepText>Type MyLogonInfoObject.setLuName("MYLUName");</StepText><draft-comment><codeph>This sets the LU name for your logon information object. In the
+						example code below, a logon information object named
+						 logoninfo</codeph><codeph>is created, for which the LU name is set to
+						 MyLu0000</codeph>.</draft-comment><AnchorPoint></AnchorPoint><image link="simple" href="images/MIS_3287_Connector_PG_4.3-16.jpg" show="embed" actuate="auto"></image></stentry></strow></simpletable></dd><dt></dt><dd><?pagebreak?></dd></body></topic>

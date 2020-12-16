@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+	<booktitle>
+    <mainbooktitle> Chapter 1 Introduction</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <prodinfo>
+            <prodname>Metrixware</prodname>
+            <vrmlist>
+                <vrm version="4.3.0"/>
+            </vrmlist>
+        </prodinfo>
+    </bookmeta>
+    <frontmatter>
+        <booklists>
+            <toc/>
+        </booklists>
+        <preface format="ditamap" href="Preface/preface.ditamap"/>
+    </frontmatter>
+    <chapter format="ditamap" href="main_content.ditamap"/>
+</bookmap>

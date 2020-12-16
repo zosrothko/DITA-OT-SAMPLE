@@ -1,0 +1,5 @@
+<?xml version="1.0" ?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic id="Introduction"><title>Introduction</title><body><dt>In this section</dt><dd><p>In this section we present a working model of a file that creates and
+			manages connection via the 3287 connector. The file is presented in
+			two sections:</p><ul><li>imported classes</li><li>function calls</li></ul></dd><dt>How to use the sample file</dt><dd><p>We recommend you build an example similar to the one outlined in this
+			section. You can then see the JavaDoc file, which is delivered with
+			this product, to customize your solution.</p><?pagebreak?></dd></body></topic>

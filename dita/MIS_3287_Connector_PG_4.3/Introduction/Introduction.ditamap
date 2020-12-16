@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <topicref navtitle="Introduction">
+        <topicref href="topics/Overview_of_the_MIS_3287_Connector.dita"/>
+        <topicref href="topics/3287_and_the_MIS_Connector_Framework.dita"/>
+        <topicref href="topics/Data_Exchange_with_the_3287_Connector.dita"/>
+        <topicref href="topics/What_You_Can_Configure.dita"/>
+        <topicref href="topics/What_You_Need_to_Program.dita"/>
+        <topicref href="topics/Before_You_Start.dita"/>
+    </topicref>
+</map>

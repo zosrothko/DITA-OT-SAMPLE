@@ -1,0 +1,10 @@
+<?xml version="1.0" ?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic id="Overview_of_the_MIS_3287_Connector"><title>Overview of the MIS 3287 Connector</title><body><dt>Introduction</dt><dd><p>This section provides an overview of the features of the MIS 3287
+			Connector. It introduces:</p><ul><li>communication protocol</li><li>data stream protocol</li><li>data stream types</li></ul><p>It also discusses a feature that lets you use existing LU names in a
+			3270 environment.</p></dd><dt>What is 3287 protocol?</dt><dd><p>3287 is the protocol between a host running a MVS (Multiple Virtual
+			Storage) operating system and a printer.</p></dd><dt>3287 type</dt><dd><p>The MIS 3287 Connector uses the Telnet version of 3287, TN3287. To
+			use this connector, you must either have a:</p><ul><li>module on the host that converts 3287 into TN3287, or a</li><li>gateway between this connector and the host that performs the same
+				task</li></ul></dd><dt>Data stream protocol</dt><dd><p>Two types of data stream are supported:</p><ul><li>LU1</li><li>LU3</li></ul></dd><dt>Data stream type</dt><dd><p>Two types of output are available:</p><ul><li>text</li><li>a binary flow</li></ul><simpletable><strow><stentry ROWSPAN="1" COLSPAN="1"><div><image link="simple" href="images/MIS_3287_Connector_PG_4.3-1.jpg" show="embed" actuate="auto"></image></div></stentry><stentry ROWSPAN="1" COLSPAN="1"><msgph>Though the 3287 protocol delivers every type of binary flow, only
+							the PCL (Printer Control Language) type is supported with this
+							version.</msgph></stentry></strow></simpletable></dd><dt>Associated LU names</dt><dd><p>The use of LUs (Logical Units) that are associated with 3270
+			equivalents is permitted.</p><simpletable><strow><stentry ROWSPAN="1" COLSPAN="1"><div><image link="simple" href="images/MIS_3287_Connector_PG_4.3-1.jpg" show="embed" actuate="auto"></image></div></stentry><stentry ROWSPAN="1" COLSPAN="1"><msgph>3270 is the protocol for communication between a host running an
+						MVS and a terminal.</msgph></stentry></strow></simpletable><?pagebreak?></dd></body></topic>

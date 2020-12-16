@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <topicref navtitle="Preface">
+        <topicref href="topics/About_this_Guide.dita"/>
+        <topicref href="topics/Who_Should_Read_this_Guide.dita"/>
+        <topicref href="topics/What_s_In_This_Guide.dita"/>
+        <topicref href="topics/What_s_In_the_MIS_Documentation_Set.dita"/>
+        <topicref href="topics/Text_Conventions_Used.dita"/>
+    </topicref>
+</map>

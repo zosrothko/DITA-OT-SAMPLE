@@ -1,0 +1,8 @@
+<?xml version="1.0" ?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic id="What_s_In_the_MIS_Documentation_Set"><title>What's In the MIS Documentation Set</title><body><dt>Introduction</dt><dd><p>This section tells you about other guides in the MIS documentation set
+		that describe connectors, and shows you where to look for more MIS
+		Documentation..</p></dd><dt>Related documentation</dt><dd><p>The table below shows you the other guides that make up the MIS
+		Connector documentation set.</p><simpletable><strow><stentry ROWSPAN="1" COLSPAN="1"><CellHead>Use this guide...</CellHead></stentry><stentry ROWSPAN="1" COLSPAN="1"><CellHead>For...</CellHead></stentry></strow><strow><stentry ROWSPAN="1" COLSPAN="1"><CellBody>MIS Connector Framework Programming Guide</CellBody></stentry><stentry ROWSPAN="1" COLSPAN="1"><CellBody>guidelines on writing code above the connector level, rather than
+					generating it in MIS Enterprise Studio.</CellBody></stentry></strow><strow><stentry ROWSPAN="1" COLSPAN="1"><CellBody>MIS Connector Framework Programming Guide</CellBody></stentry><stentry ROWSPAN="1" COLSPAN="1"><CellBody>guidelines on writing code above the connector level, rather than
+					generating it in MIS Enterprise Studio.</CellBody></stentry></strow></simpletable></dd><dt>MIS documentation</dt><dd><p><i>For a look at all documentation available see the
+		 MIS Documentation Roadmap</i>.</p></dd><dt>For more information</dt><dd><p>For more information on using MIS products, contact the MIS Support
+		Team at:</p><ul><li>contact@metrixware.com</li><li>Phone: 33 (0)1 55 69 32 20</li><li>1-7, cours Valmy, 92800 Puteaux</li></ul><?pagebreak?></dd></body></topic>

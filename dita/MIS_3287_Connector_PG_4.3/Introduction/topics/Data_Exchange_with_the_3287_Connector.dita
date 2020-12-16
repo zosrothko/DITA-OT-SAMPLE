@@ -1,0 +1,3 @@
+<?xml version="1.0" ?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic id="Data_Exchange_with_the_3287_Connector"><title>Data Exchange with the 3287 Connector</title><body><dt>In this section</dt><dd><p>This section introduces you the different data exchanges available
+			with the 3287 connector.</p></dd><dt>Input</dt><dd><p>There are three types of interaction with the MIS 3287 Connector:</p><ul><li>reception of data</li><li>deletion of a single print job</li><li>deletion of all print jobs</li></ul></dd><dt>Output</dt><dd><p>Two types of output can be extracted from a host using this
+			connector:</p><ul><li>a binary flow, for subsequent exploitation</li><li>text documents, for direct use</li></ul><?pagebreak?></dd></body></topic>

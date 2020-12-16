@@ -1,0 +1,6 @@
+<?xml version="1.0" ?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic id="Introduction"><title>Introduction</title><body><dt>In this section</dt><dd><p>This section covers the principle tasks that you must follow to
+			retrieve the data that is returned by the host application. It tells
+			you how to:</p><ul><li>import the necessary classes</li><li>create an interaction object</li><li>define interaction for that object</li><li>create an object for data reception</li><li>execute the interaction object</li><li>format results received from the host</li><li>close the connection</li><li>place the resulting Java class in your web application</li></ul></dd><dt>For more information</dt><dd><p>This guide is intended as an introduction to programming with the
+			3287 connector. For a description of the classes, methods and
+			parameters available, see the JavaDoc files that are delivered with
+			this product.</p><?pagebreak?></dd></body></topic>

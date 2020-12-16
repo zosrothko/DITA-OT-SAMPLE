@@ -1,0 +1,10 @@
+<?xml version="1.0" ?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic id="3287_and_the_MIS_Connector_Framework"><title>3287 and the MIS Connector Framework</title><body><dt>Introduction</dt><dd><p>This section explains how the MIS Connector Framework fits into the
+			MIS Connector Framework.</p></dd><dt>A generic connection interface</dt><dd><p>MIS Connector Framework has a wide variety of connectors, such as:</p><ul><li>IBM 3287</li><li>IBM 3270</li><li>IBM 5250</li><li>BULL DKU7107</li><li>Videotex</li><li>VT</li><li>Unisys UTS20</li></ul><p>With the MIS Connector Framework, you use a single interface to
+			connect to any one of the available connectors.</p></dd><dt>What the MIS Connector Framework offers</dt><dd><p>MIS Connector Framework provides extensive features for connection
+			pool management, including:</p><ul><li>lower and upper bounds for the number of connections in the pool</li><li>timeouts for each connection</li></ul><p>It also provides a highly configurable log system, capable of:</p><ul><li>targeting events within several different areas of activity in the
+				framework</li><li>switching output to the servlet container’s log</li></ul></dd><dt>How the 3287 connector fits in</dt><dd><p><i>As with all other MIS connectors, the 3287 connector inherits all of
+			the features of the connector framework. This means that every
+			parameter described in the
+			 MIS Connector Framework Configuration Guide</i>also applies to this connector. However, other aspects of
+			configuration, and several programming issues, are specific to this
+			connector, and are described in this guide.</p><?pagebreak?></dd></body></topic>

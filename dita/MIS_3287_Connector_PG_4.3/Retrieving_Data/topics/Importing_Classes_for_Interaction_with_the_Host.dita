@@ -1,0 +1,7 @@
+<?xml version="1.0" ?><!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"><topic id="Importing_Classes_for_Interaction_with_the_Host"><title>Importing Classes for Interaction with the Host</title><body><dt>Introduction</dt><dd><p>This section tells you how to import the classes that you require to
+			control interaction with the host.</p></dd><dt>Two classes for interaction</dt><dd><p>Two classes are required for interaction with the host:</p><ul><li><codeph>com.scort.connector.CommonInteractionSpecProperties</codeph></li><li><codeph>com.scort.connector.infrastructure.Communication</codeph></li></ul></dd><dt>To import classes for interaction</dt><dd><p>Follow the procedure below to import the classes you require for
+			interaction with the host.</p><simpletable><strow><stentry ROWSPAN="1" COLSPAN="1"><Step1></Step1></stentry><stentry ROWSPAN="1" COLSPAN="1"><StepText>Open your Java file.</StepText></stentry></strow><strow><stentry ROWSPAN="1" COLSPAN="1"><Steps></Steps></stentry><stentry ROWSPAN="1" COLSPAN="1"><StepText><codeph>Type these two lines in the
+						 import</codeph>section of the file:</StepText><ul><li><codeph>import
+								com.scort.connector.CommonInteractionSpecProperties;</codeph></li><li><codeph>import
+								com.scort.connector.infrastructure.Communication</codeph>;</li></ul><draft-comment>You have successfully imported the files you require for
+						interaction with the host.</draft-comment></stentry></strow></simpletable><?pagebreak?></dd></body></topic>

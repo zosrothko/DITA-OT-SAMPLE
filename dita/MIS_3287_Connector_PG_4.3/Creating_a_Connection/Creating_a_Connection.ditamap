@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <topicref navtitle="Creating a Connection">
+        <topicref href="topics/Introduction.dita"/>
+        <topicref href="topics/Create_Your_Java_File.dita"/>
+        <topicref href="topics/Import_Classes_for_the_Connection_Configuration.dita"/>
+        <topicref href="topics/Two_Ways_to_Define_Your_Connection.dita"/>
+        <topicref href="topics/About_Defining_Your_Connection.dita"/>
+        <topicref href="topics/Define_Your_Connection_in_Java.dita"/>
+        <topicref href="topics/Define_Your_Connection_by_Reference.dita"/>
+        <topicref href="topics/Import_Logon_Information.dita"/>
+        <topicref href="topics/Create_a_Logon_Information_Object.dita"/>
+        <topicref href="topics/Create_Your_Connection_Object.dita"/>
+    </topicref>
+</map>
