@@ -21,6 +21,22 @@
 	</properties>
 	<dependencies>
 		<dependency>
+			<groupId>net.sf.saxon</groupId>
+			<artifactId>Saxon-HE</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.ant</groupId>
+			<artifactId>ant</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.ant</groupId>
+			<artifactId>ant-launcher</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.ant</groupId>
+			<artifactId>ant-apache-resolver</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.dita-ot</groupId>
 			<artifactId>dost</artifactId>
 		</dependency>
@@ -29,20 +45,16 @@
 			<artifactId>dost-configuration</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>xerces</groupId>
-			<artifactId>xercesImpl</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>xml-resolver</groupId>
-			<artifactId>xml-resolver</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.dita.plugin</groupId>
 			<artifactId>eclipsehelp</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.dita.plugin</groupId>
 			<artifactId>htmlhelp</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.dita.plugin</groupId>
+			<artifactId>index</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.dita.plugin</groupId>
@@ -82,27 +94,12 @@
 			<artifactId>fop-pdf-images</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>jcl-over-slf4j</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>xml-apis</groupId>
-			<artifactId>xml-apis</artifactId>
-			<version>1.4.01</version>
-		</dependency>
-		<dependency>
 			<groupId>org.apache.pdfbox</groupId>
 			<artifactId>pdfbox</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-api</artifactId>
-			<version>1.7.25</version>
-		</dependency>
-		<dependency>
 			<groupId>org.apache.xmlgraphics</groupId>
 			<artifactId>xmlgraphics-commons</artifactId>
-			<version>2.3</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vladsch.flexmark</groupId>
@@ -115,82 +112,74 @@
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
-				<scope>compile</scope>
-			<version>2.6</version>
 		</dependency>
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-				<scope>compile</scope>
-			<version>27.1-jre</version>
-			<type>jar</type>
 		</dependency>
 		<dependency>
 			<groupId>com.ibm.icu</groupId>
 			<artifactId>icu4j</artifactId>
-				<scope>compile</scope>
-			<version>64.2</version>
 		</dependency>
 		<dependency>
 			<groupId>isorelax</groupId>
 			<artifactId>isorelax</artifactId>
 				<scope>compile</scope>
-			<version>20030108</version>
 		</dependency>
-<!--
--->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-annotations</artifactId>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+</dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.dataformat</groupId>
+    <artifactId>jackson-dataformat-yaml</artifactId>
+</dependency>
 		<dependency>
 			<groupId>org.relaxng</groupId>
 			<artifactId>jing</artifactId>
-			<version>20181222</version>
 			<scope>compile</scope>
 		</dependency>
-<dependency>
-    <groupId>net.sf.saxon</groupId>
-    <artifactId>Saxon-HE</artifactId>
-    <version>9.9.1-7</version>
-</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
 				<scope>compile</scope>
-			<version>1.2.3</version>
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-core</artifactId>
 				<scope>compile</scope>
-			<version>1.2.3</version>
-		</dependency>
-<!-- 
-		<dependency>
-			<groupId>org.apache.ant</groupId>
-			<artifactId>ant</artifactId>
-				<scope>compile</scope>
-			<version>1.9.15</version>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.ant</groupId>
-			<artifactId>ant-launcher</artifactId>
-				<scope>compile</scope>
-			<version>1.10.5</version>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
+<dependency>
+    <groupId>org.yaml</groupId>
+    <artifactId>snakeyaml</artifactId>
+</dependency>
+		<dependency>
+			<groupId>xerces</groupId>
+			<artifactId>xercesImpl</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.ant</groupId>
-			<artifactId>ant-apache-resolver</artifactId>
-				<scope>compile</scope>
-			<version>1.10.5</version>
- 		</dependency>
--->
+			<groupId>xml-apis</groupId>
+			<artifactId>xml-apis</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>xml-resolver</groupId>
+			<artifactId>xml-resolver</artifactId>
+		</dependency>
+
  
 	</dependencies>
-<!-- 
-   java -cp 
-   target/classes:/Users/raducoravu/Downloads/dita-ot-3.6/lib/*:
-   /Users/raducoravu/Downloads/dita-ot-3.6/plugins/org.dita.pdf2/lib/*:
-   /Users/raducoravu/Downloads/dita-ot-3.6/plugins/org.dita.pdf2.fop/lib/*:
-   /Users/raducoravu/Downloads/dita-ot-3.6/plugins/org.dita.index/lib/*  com.scort.mi.dita.mojo.Main
-    -->
 	<build>
 		<plugins>
 <!-- 
