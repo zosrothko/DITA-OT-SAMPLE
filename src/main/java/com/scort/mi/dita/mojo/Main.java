@@ -37,7 +37,7 @@ public class Main {
 
 		processor.createDebugLog(false);
 		processor.cleanOnFailure(true);
-		// Run conversion
+		processor.setProperty("validate", "false");
 		processor.run();
 	}
 
